@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Simple script to initialize a Git repository and push changes
+
+# Variables
+REMOTE_URL="https://github.com/your-username/your-repo.git" # Replace with your repo URL
+
+# Step 1: Initialize a Git repository
+git init
+echo "Initialized empty Git repository."
+
+# Step 2: Create a sample file
+echo "Hello, Git!" > sample.txt
+echo "Created a sample file: sample.txt."
+
+# Step 3: Stage the file
+git add sample.txt
+echo "Staged the file."
+
+# Step 4: Commit the file
+git commit -m "Initial commit"
+echo "Committed the file."
+
+# Step 5: Add the remote repository
+git remote add origin $REMOTE_URL
+echo "Added the remote repository."
+
+# Step 6: Push the changes to the remote repository
+git branch -M main
+git push -u origin main
+echo "Pushed changes to the remote repository."
+
+# Done!
+echo "Git setup complete!"
