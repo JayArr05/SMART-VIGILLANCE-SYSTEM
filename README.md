@@ -1,3 +1,4 @@
 # SMART-VIGILLANCE-SYSTEM
-Facilitates for faster emergency response
-More information about the project
+This system is basucally meant to fasten emergency responses
+precisely road accidents in majorly remote areas or non developed regions hence alerts are received quicker and faster
+by the responders
