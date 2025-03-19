@@ -1,0 +1,10 @@
+Functional requirements
+•	Updates the users’ location.
+•	Provides First Aid instruction to the user before the emergency team arrives. 
+•	Sends alerts to any emergency responder available.
+
+Non-functional requirements
+•	Reliability and accuracy
+•	Scalable to handle large volumes of data
+•	Secure 
+•	User-friendly interface 
