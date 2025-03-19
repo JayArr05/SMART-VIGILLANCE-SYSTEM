@@ -1,0 +1,3 @@
+Methodology 
+Agile method- Due to its adaptability, we can keep improving the software and make changes regarding the people’s feedback. 
+The system highly relies on user satisfaction hence I would be easy to incorporate changes.
